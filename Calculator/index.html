@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8" />
+    <title>calculator</title>
+    <link href="style.css" rel="stylesheet" />
+	<script language="javascript" src="Calculation.js" ></script>
+</head>
+<body>
+    <div class="calculator">    
+        <p class="row">
+                <input type="text" name="display" id="display" value="0" />
+        </p>
+		<p class="row">
+                <input type="button"  class="btn2" value="c" onclick="opr('c')">
+				<input type="button"  class="btn" value="^2" onclick="opr('^2')">
+				<input type="button" class="btn" value="√"  onclick="opr('√')">
+        </p>
+        <p class="row">
+                <input type="button" class="btn" value="7"  onclick="num(7)">
+                <input type="button" class="btn" value="8" onclick="num(8)">          
+                <input type="button"  class="btn" value="9" onclick="num(9)">          
+                <input type="button"  class="btn" value="*" onclick="opr('*')">
+        </p>
+        <p class="row">
+                <input type="button"  class="btn"  value="4" onclick="num(4)">
+                <input type="button"  class="btn" value="5"  onclick="num(5)">
+                <input type="button"  class="btn" value="6" onclick="num(6)">
+                <input type="button"  class="btn" value="-" onclick="opr('-')">
+        </p>
+
+        <p class="row">
+                <input type="button"  class="btn" value="1" onclick="num(1)"/>
+                <input type="button"  class="btn" value="2" onclick="num(2)"/>
+                <input type="button"  class="btn" value="3" onclick="num(3)"/>
+                <input type="button"  class="btn" value="+" onclick="opr('+')"/>
+        </p>
+
+        <p class="row">
+				<input type="button"  class="btn" value="." onclick="num('.')">
+                <input type="button"  class="btn" value="0" onclick="num(0)">
+                <input type="button"  class="btn" value="/" onclick="opr('/')">
+				<input type="button"  class="btn" value="=" onclick="opr('=')">
+        </p>
+        
+    </div>
+
+</body>
+</html>
